@@ -32,9 +32,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	margin-bottom: 15px;
 	margin-top: 0;
 }
-h1 {font-size: 38px;}
+h1 {
+	font-size: 38px;
+	color: #005D98;
+}
 h2 {font-size: 32px;}
-h3 {font-size: 24px;}
+h3 {
+	color: #005D98;
+	font-weight: 600;
+	font-size: 24px;
+}
 h4 {font-size: 20px;}
 h5 {font-size: 18px;}
 h6 {font-size: 16px;}
@@ -145,12 +152,12 @@ pre {
 	background-color: #27ae60;
 }
 .btn-primary, .label-primary {
-	background-color: #3498db;
-	border-color: #3498db;
+	background-color: #00AFEF;
+	border-color: #00AFEF;
 }
 .btn-primary:hover, .btn-primary:focus {
-	background-color: #2980b9;
-	border-color: #2980b9;
+	background-color: #005d98;
+	border-color: #005d98;
 }
 .btn-info, .label-info, .alert-info {
 	background-color: #3498db;
@@ -416,7 +423,7 @@ label {
 }
 #hero .lp-element {
 	padding: 150px 50px;
-	background-color: rgba(255, 255, 255, .75);
+	background-color: rgba(255, 255, 255, .94);
 }
 #hero h1 {
 	font-size: 60px;
@@ -445,6 +452,7 @@ label {
 	margin-bottom: 30px;
 }
 .service-block .glyphicon {
+	color: #005D98;
 	font-size: 60px;
 	margin-bottom: 20px;
 }
@@ -709,4 +717,12 @@ label {
 div.teamBloco {
 	background-color: black;
 	opacity: 0.7;
+}
+p.pConheca {
+	color: #3773B0;
+	font-weight: 500;
+}
+button.btn-disabled {
+	background-color: #D2D3D5!important;
+	color: #FEFEFE!important;
 }
