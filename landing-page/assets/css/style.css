@@ -722,7 +722,34 @@ p.pConheca {
 	color: #3773B0;
 	font-weight: 500;
 }
+p.easyBlue {
+	color: #00AFEF!important;
+	font-weight: 300!important;
+}
 button.btn-disabled {
 	background-color: #D2D3D5!important;
 	color: #FEFEFE!important;
+}
+.nameStaffer {
+	background-color: #1C3145;
+	color: #FEFEFE!important;
+}
+.nameStaffer > h4 {
+	padding: 2%;
+}
+.funcStaffer > .header {
+	background-color: #1C3145;
+	color: #FEFEFE!important;
+}
+.funcStaffer > .content {
+	background-color: rgba(41,57,74,.9);
+	color: #FEFEFE!important;
+}
+#slider > .h1 {
+	color: #29394A!important;
+}
+p.sliderP {
+	color: #29394A!important;
+	font-weight: 500;
+	font-size: 1.4em;
 }
